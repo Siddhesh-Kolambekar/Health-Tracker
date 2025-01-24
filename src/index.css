@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+button {
+  cursor: pointer;
+}
+  
+html, body {
+    height: 100%;
+}
+
+
+.medicine-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Ensures consistent column widths */
+}
+.medicine-table th,
+.medicine-table td {
+  border: 1px solid black;
+  padding: 30px;
+  text-align: left;
+}

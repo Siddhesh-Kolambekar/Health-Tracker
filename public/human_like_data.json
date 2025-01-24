@@ -1,0 +1,552 @@
+[
+    {
+      "id": 1,
+      "name": "Dr. Ravi Sharma",
+      "specialty": "Cardiologist",
+      "available": true,
+      "slots": ["9:00 AM", "11:00 AM", "2:00 PM"],
+      "age": 45,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Priya Kapoor",
+      "specialty": "Dermatologist",
+      "available": false,
+      "slots": [],
+      "age": 38,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Arvind Yadav",
+      "specialty": "Pediatrician",
+      "available": true,
+      "slots": ["10:00 AM", "1:00 PM", "4:00 PM"],
+      "age": 50,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Neha Verma",
+      "specialty": "Gynecologist",
+      "available": true,
+      "slots": ["8:00 AM", "12:00 PM", "3:00 PM"],
+      "age": 42,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Sanjay Joshi",
+      "specialty": "Orthopedic",
+      "available": false,
+      "slots": [],
+      "age": 48,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Dr. Sita Mehta",
+      "specialty": "Neurologist",
+      "available": true,
+      "slots": ["9:30 AM", "1:30 PM", "5:00 PM"],
+      "age": 52,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Dr. Anil Gupta",
+      "specialty": "General Physician",
+      "available": true,
+      "slots": ["7:00 AM", "10:00 AM", "6:00 PM"],
+      "age": 40,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Dr. Rina Patel",
+      "specialty": "Dentist",
+      "available": true,
+      "slots": ["8:30 AM", "11:30 AM", "2:30 PM"],
+      "age": 36,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Dr. Deepak Kumar",
+      "specialty": "ENT Specialist",
+      "available": false,
+      "slots": [],
+      "age": 44,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Dr. Rekha Reddy",
+      "specialty": "Endocrinologist",
+      "available": true,
+      "slots": ["10:30 AM", "1:30 PM", "4:00 PM"],
+      "age": 47,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Dr. Amit Singh",
+      "specialty": "Urologist",
+      "available": true,
+      "slots": ["9:00 AM", "12:00 PM", "3:00 PM"],
+      "age": 41,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Dr. Pooja Joshi",
+      "specialty": "Physiotherapist",
+      "available": false,
+      "slots": [],
+      "age": 37,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Dr. Manish Patel",
+      "specialty": "Gastroenterologist",
+      "available": true,
+      "slots": ["10:00 AM", "2:00 PM", "5:30 PM"],
+      "age": 46,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Dr. Sonali Verma",
+      "specialty": "Psychiatrist",
+      "available": true,
+      "slots": ["9:00 AM", "11:00 AM", "2:30 PM"],
+      "age": 39,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Dr. Vikram Kapoor",
+      "specialty": "Hematologist",
+      "available": true,
+      "slots": ["8:00 AM", "1:00 PM", "4:30 PM"],
+      "age": 50,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Dr. Nisha Desai",
+      "specialty": "Cardiologist",
+      "available": true,
+      "slots": ["9:30 AM", "11:30 AM", "3:30 PM"],
+      "age": 43,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Dr. Shubham Agarwal",
+      "specialty": "Orthopedic",
+      "available": true,
+      "slots": ["8:30 AM", "10:30 AM", "1:00 PM"],
+      "age": 47,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Dr. Jaya Rani",
+      "specialty": "Gynecologist",
+      "available": false,
+      "slots": [],
+      "age": 49,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/women/18.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Dr. Karan Thakur",
+      "specialty": "Nephrologist",
+      "available": true,
+      "slots": ["7:30 AM", "11:00 AM", "5:00 PM"],
+      "age": 45,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Dr. Sandeep Kumar",
+      "specialty": "Dermatologist",
+      "available": true,
+      "slots": ["9:00 AM", "12:00 PM", "4:00 PM"],
+      "age": 42,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/20.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Dr. Anita Rai",
+      "specialty": "Oncologist",
+      "available": true,
+      "slots": ["8:00 AM", "11:00 AM", "2:00 PM"],
+      "age": 51,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/21.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Dr. Rohit Khanna",
+      "specialty": "Radiologist",
+      "available": false,
+      "slots": [],
+      "age": 48,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Dr. Maya Singh",
+      "specialty": "Endocrinologist",
+      "available": true,
+      "slots": ["9:30 AM", "12:30 PM", "3:30 PM"],
+      "age": 44,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/23.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Dr. Vijay Mehta",
+      "specialty": "Pulmonologist",
+      "available": true,
+      "slots": ["7:30 AM", "11:30 AM", "4:30 PM"],
+      "age": 53,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/24.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Dr. Arjun Saxena",
+      "specialty": "Ophthalmologist",
+      "available": true,
+      "slots": ["8:00 AM", "10:30 AM", "2:00 PM"],
+      "age": 40,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Dr. Kavita Sharma",
+      "specialty": "Pediatrician",
+      "available": true,
+      "slots": ["9:00 AM", "12:00 PM", "3:30 PM"],
+      "age": 37,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/26.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Dr. Mohan Das",
+      "specialty": "Geriatrician",
+      "available": false,
+      "slots": [],
+      "age": 55,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Dr. Sushmita Nair",
+      "specialty": "Allergist",
+      "available": true,
+      "slots": ["8:30 AM", "11:00 AM", "1:30 PM"],
+      "age": 43,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/28.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Dr. Rajesh Chopra",
+      "specialty": "Pulmonologist",
+      "available": true,
+      "slots": ["9:00 AM", "12:30 PM", "4:00 PM"],
+      "age": 50,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/29.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Dr. Radhika Menon",
+      "specialty": "Endocrinologist",
+      "available": false,
+      "slots": [],
+      "age": 39,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/women/30.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Dr. Amit Trivedi",
+      "specialty": "Neurologist",
+      "available": true,
+      "slots": ["7:00 AM", "10:00 AM", "5:00 PM"],
+      "age": 45,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/31.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Dr. Leela Kapoor",
+      "specialty": "Gynecologist",
+      "available": true,
+      "slots": ["8:00 AM", "11:30 AM", "3:00 PM"],
+      "age": 42,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/32.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Dr. Vikrant Sharma",
+      "specialty": "Hematologist",
+      "available": false,
+      "slots": [],
+      "age": 49,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/men/33.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Dr. Priya Iyer",
+      "specialty": "Cardiologist",
+      "available": true,
+      "slots": ["9:30 AM", "12:00 PM", "2:30 PM"],
+      "age": 38,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/34.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Dr. Aniket Rao",
+      "specialty": "Dentist",
+      "available": true,
+      "slots": ["8:30 AM", "11:00 AM", "1:30 PM"],
+      "age": 36,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Dr. Sneha Pillai",
+      "specialty": "Dermatologist",
+      "available": true,
+      "slots": ["10:00 AM", "12:30 PM", "3:00 PM"],
+      "age": 40,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/36.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Dr. Rahul Sen",
+      "specialty": "Nephrologist",
+      "available": true,
+      "slots": ["7:30 AM", "11:00 AM", "4:30 PM"],
+      "age": 47,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/37.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Dr. Meera Jadhav",
+      "specialty": "Psychiatrist",
+      "available": false,
+      "slots": [],
+      "age": 41,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/women/38.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Dr. Arvind Shetty",
+      "specialty": "Gastroenterologist",
+      "available": true,
+      "slots": ["9:00 AM", "2:00 PM", "5:00 PM"],
+      "age": 51,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Dr. Sandhya Nair",
+      "specialty": "Oncologist",
+      "available": true,
+      "slots": ["8:00 AM", "10:30 AM", "3:00 PM"],
+      "age": 46,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/40.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Dr. Suresh Gupta",
+      "specialty": "Urologist",
+      "available": true,
+      "slots": ["7:00 AM", "12:00 PM", "4:00 PM"],
+      "age": 52,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/41.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Dr. Rani Sharma",
+      "specialty": "Orthopedic",
+      "available": false,
+      "slots": [],
+      "age": 50,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/women/42.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Dr. Vineet Kumar",
+      "specialty": "Plastic Surgeon",
+      "available": true,
+      "slots": ["8:30 AM", "11:00 AM", "2:00 PM"],
+      "age": 44,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/43.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Dr. Nandini Bhat",
+      "specialty": "Pediatrician",
+      "available": true,
+      "slots": ["9:00 AM", "12:30 PM", "3:30 PM"],
+      "age": 38,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Dr. Manav Kapoor",
+      "specialty": "Psychiatrist",
+      "available": false,
+      "slots": [],
+      "age": 46,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Dr. Geeta Singh",
+      "specialty": "ENT Specialist",
+      "available": true,
+      "slots": ["10:00 AM", "1:00 PM", "4:00 PM"],
+      "age": 42,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/46.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Dr. Ashish Mehta",
+      "specialty": "Neurologist",
+      "available": true,
+      "slots": ["8:00 AM", "11:00 AM", "2:30 PM"],
+      "age": 48,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/47.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Dr. Priya Deshmukh",
+      "specialty": "Dermatologist",
+      "available": true,
+      "slots": ["9:00 AM", "12:00 PM", "3:00 PM"],
+      "age": 39,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/48.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Dr. Rajeev Jha",
+      "specialty": "Endocrinologist",
+      "available": false,
+      "slots": [],
+      "age": 53,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/men/49.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Dr. Neha Ghosh",
+      "specialty": "Gynecologist",
+      "available": true,
+      "slots": ["8:30 AM", "11:00 AM", "2:30 PM"],
+      "age": 40,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/50.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Dr. Pradeep Tiwari",
+      "specialty": "Gastroenterologist",
+      "available": true,
+      "slots": ["9:00 AM", "12:30 PM", "4:00 PM"],
+      "age": 47,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/51.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Dr. Ashwini Patil",
+      "specialty": "Cardiologist",
+      "available": true,
+      "slots": ["8:00 AM", "10:00 AM", "3:00 PM"],
+      "age": 41,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/52.jpg"
+    },
+    {
+      "id": 53,
+      "name": "Dr. Nikhil Joshi",
+      "specialty": "Oncologist",
+      "available": false,
+      "slots": [],
+      "age": 49,
+      "status": "On Leave",
+      "image": "https://randomuser.me/api/portraits/men/53.jpg"
+    },
+    {
+      "id": 54,
+      "name": "Dr. Seema Rani",
+      "specialty": "Ophthalmologist",
+      "available": true,
+      "slots": ["8:00 AM", "11:00 AM", "2:00 PM"],
+      "age": 43,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/women/54.jpg"
+    },
+    {
+      "id": 55,
+      "name": "Dr. Kartik Arora",
+      "specialty": "Plastic Surgeon",
+      "available": true,
+      "slots": ["9:30 AM", "12:00 PM", "3:00 PM"],
+      "age": 46,
+      "status": "Active",
+      "image": "https://randomuser.me/api/portraits/men/55.jpg"
+    }
+]

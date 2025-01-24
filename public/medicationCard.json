@@ -1,0 +1,149 @@
+[
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "dosage": "500mg",
+      "frequency": "Twice a day",
+      "endDate": "2024-12-31",
+      "notes": "Take after meals.",
+      "taken": true
+    },
+    {
+      "id": 2,
+      "name": "Amoxicillin",
+      "dosage": "250mg",
+      "frequency": "Three times a day",
+      "endDate": null,
+      "notes": "",
+      "taken": false
+    },
+    {
+      "id": 3,
+      "name": "Ibuprofen",
+      "dosage": "400mg",
+      "frequency": "As needed",
+      "endDate": "2025-01-15",
+      "notes": "Avoid taking on an empty stomach.",
+      "taken": false
+    },
+    {
+      "id": 4,
+      "name": "Metformin",
+      "dosage": "500mg",
+      "frequency": "Twice a day",
+      "endDate": null,
+      "notes": "Take with food to avoid stomach upset.",
+      "taken": false
+    },
+    {
+      "id": 5,
+      "name": "Atorvastatin",
+      "dosage": "10mg",
+      "frequency": "Once a day at bedtime",
+      "endDate": "2025-06-01",
+      "notes": "Avoid grapefruit juice while taking this medication.",
+      "taken": true,
+      "request":true
+    },
+    {
+      "id": 6,
+      "name": "Losartan",
+      "dosage": "50mg",
+      "frequency": "Once a day",
+      "endDate": null,
+      "notes": "Take at the same time each day.",
+      "taken": true,
+      "request":false
+    },
+    {
+      "id": 7,
+      "name": "Salbutamol Inhaler",
+      "dosage": "100mcg",
+      "frequency": "As needed",
+      "endDate": null,
+      "notes": "Use during asthma attacks. Shake well before use.",
+      "taken": false,
+      "request":true
+    },
+    {
+      "id": 8,
+      "name": "Omeprazole",
+      "dosage": "20mg",
+      "frequency": "Once a day before breakfast",
+      "endDate": "2024-12-15",
+      "notes": "Used for acid reflux. Avoid heavy meals before bedtime.",
+      "taken": false,
+      "request":true
+    },
+    {
+      "id": 9,
+      "name": "Levothyroxine",
+      "dosage": "75mcg",
+      "frequency": "Once a day in the morning",
+      "endDate": null,
+      "notes": "Take on an empty stomach, 30 minutes before breakfast.",
+      "taken": false,
+      "request":true
+    },
+    {
+      "id": 10,
+      "name": "Hydrochlorothiazide",
+      "dosage": "25mg",
+      "frequency": "Once a day",
+      "endDate": null,
+      "notes": "Take in the morning to avoid frequent urination at night.",
+      "taken": false,
+      "request":false
+    },
+    {
+      "id": 11,
+      "name": "Prednisolone",
+      "dosage": "10mg",
+      "frequency": "Once a day",
+      "endDate": "2024-12-25",
+      "notes": "Take with food to prevent stomach irritation.",
+      "taken": false,
+      "request":true
+    },
+    {
+      "id": 12,
+      "name": "Cetirizine",
+      "dosage": "10mg",
+      "frequency": "Once a day",
+      "endDate": null,
+      "notes": "For allergies. May cause drowsiness.",
+      "taken": false,
+      "request":true
+    },
+    {
+      "id": 13,
+      "name": "Vitamin D",
+      "dosage": "2000 IU",
+      "frequency": "Once a day",
+      "endDate": null,
+      "notes": "Take with a meal containing fat for better absorption.",
+      "taken": false,
+      "request":true
+    },
+    {
+      "id": 14,
+      "name": "Insulin (Humalog)",
+      "dosage": "Variable",
+      "frequency": "Before meals as directed",
+      "endDate": null,
+      "notes": "Administer 15 minutes before eating.",
+      "taken": true,
+      "request":true
+    },
+    {
+      "id": 15,
+      "name": "Warfarin",
+      "dosage": "5mg",
+      "frequency": "Once a day at the same time",
+      "endDate": null,
+      "notes": "Avoid green leafy vegetables due to vitamin K interaction.",
+      "taken": true,
+      "request":true
+    }
+  ]
+  

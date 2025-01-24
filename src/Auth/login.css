@@ -1,0 +1,10 @@
+.container {
+  background-image: url(../assets/images/loginBg.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.logInImg {
+  width: 130px;
+}

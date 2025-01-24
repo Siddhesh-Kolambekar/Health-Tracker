@@ -1,0 +1,44 @@
+src
+   login_page
+      user_login.jsx
+      admin_login.jsx
+   user
+      dashboard
+         dashboard.jsx
+         cards.jsx
+         navbar.jsx
+         content.jsx
+         footer.jsx
+      reminder
+         reminder.jsx
+      renewal
+         renewal.jsx
+      history
+         history.jsx
+      schedule
+         schedule.jsx
+      profile
+         profile.jsx
+      analytics
+         analytics.jsx
+
+      offline_services
+         offline_services.jsx
+      assistance
+         faq.jsx
+         chat.jsx
+   admin
+      dashboard
+         schedule.jsx(display)
+         navbar.jsx
+         content.jsx
+         footer.jsx
+      renewalRequests
+         renRequest.jsx
+      patientSchedule
+         schedule.jsx
+      medicationAsDone
+         MarkAsDone.jsx 
+      profile
+         profile.jsx
+      
