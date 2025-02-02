@@ -50,7 +50,7 @@ my-app/
 ```
 
 ## Video Walkthrough of the Project
-(https://youtu.be/9El7S6NVE4s)
+https://youtu.be/9El7S6NVE4s
 
 ## Features
 - User-friendly dashboard to track health metrics
