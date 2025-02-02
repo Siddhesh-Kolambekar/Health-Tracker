@@ -1,138 +1,94 @@
-# React + Vite
+# Health Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+Health Tracker is a web application designed to help users monitor their health by tracking key metrics such as daily activities, calorie intake, and medical records. The application aims to provide users with insightful analytics and assist in maintaining a healthy lifestyle through smart AI assistance and doctor consultations.
 
-Currently, two official plugins are available:
+## Project Type
+Fullstack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deployed App
+- **Live link:** [https://incredible-llama-01f40f.netlify.app/](https://incredible-llama-01f40f.netlify.app/)
 
-- Here’s a simplified and easy-to-understand README.md file for your project:
-- Project Title
-
-- This is a React project for managing healthcare-related tasks like reminders, appointments, and assistance through chatbots.
-
-- Introduction
-
-- This project helps users manage their tasks easily. It includes features like a dashboard, chatbot, reminders, and profile - management. The app is designed to make things simple and organized for both users and administrators.
-
-- Project Type
-
-- Frontend: React.js application.
-
-- Backend: (Mention if there is any backend like Node.js or Firebase).
-
-- Fullstack: Combines frontend and backend (if both are available).
-
-- Deployed App
-
-- Frontend: Link to your website
-
-- Backend: Link to backend API
-
-- Database: (Add link if needed)
-
-- Project Structure
-
+## Directory Structure
+```
 my-app/
-├── Auth/
-│   ├── login.css       # Login page styling
-│   ├── login.jsx       # Login page functionality
-├── component/
-│   ├── AdminDashboard/ # Admin dashboard files
-│   ├── AdminProfile/   # Admin profile management
-│   ├── Assistance/     # Chatbot and help system
-│   │   ├── Assistance.jsx
-│   │   ├── ChatBot.jsx
-│   │   ├── FAQ.jsx
-│   │   ├── getBotResponse.js
-│   ├── Dashboard/      # Main dashboard components
-│   ├── Doctors/        # Doctor-related features
-│   ├── History/        # History tracking
-│   ├── Profile/        # User profile management
-│   ├── Reminder/       # Reminder functionality
-│   ├── Renewal/        # Appointment renewal
-│   │   ├── Renewal.jsx
-│   │   ├── toggle.jsx
-│   ├── Schedule/       # Schedule-related components
-│   │   ├── Schedule.jsx
-│   ├── subscription/   # Subscription management
-│       ├── payment.jsx
-│       ├── subscription.jsx
+│   .gitignore
+│   eslint.config.js
+│   index.html
+│   package-lock.json
+│   package.json
+│   README.md
+│   structure.txt
+│   vite.config.js
+│
+├── .github/
+│   ├── workflows/
+│   │   └── main.yml
+│
+├── backend/
+│   ├── .env
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── Controllers/
+│   │   └── AuthController.js
+│   ├── Middlewares/
+│   │   └── AuthValidation.js
+│   ├── Models/
+│   │   ├── db.js
+│   │   ├── User.js
+│   ├── Routes/
+│   │   ├── AuthRouter.js
+│
+├── src/
+│   ├── components/
+│   ├── auth/
+│   ├── assets/
+│   ├── styles.jsx
+│
+└── node_modules/
+```
 
-- Features
+## Video Walkthrough of the Project
+https://drive.google.com/file/d/1g9h-ie0i4OYpquMUZBW8z6jLkA4VNl73/view
 
-- Login System: Secure login for users and admins.
+## Features
+- User-friendly dashboard to track health metrics
+- AI-based health insights and recommendations
+- Doctor consultation feature for medical guidance
+- Secure user authentication and data storage
+- Interactive charts and analytics for progress tracking
 
-- Dashboard: View important details in one place.
+## Design Decisions or Assumptions
+- The application prioritizes user privacy and data security
+- A clean and intuitive UI for a seamless user experience
+- Responsive design for accessibility on all devices
+- Integration with third-party health APIs for accurate insights
 
-- Chatbot: Get quick help through the chatbot.
+## Installation & Getting Started
+Clone the repository and install dependencies:
+```bash
+npm clone https://github.com/Siddhesh-Kolambekar/Health-Tracker.git
+cd Health-Tracker
+npm install
+npm run dev
+```
 
-- Reminders: Set and manage reminders.
+## Usage
+To use the Health Tracker application:
+1. Sign up or log in to your account
+2. Enter your health data (disease, dosage intake, etc.)
+3. View analytics and AI-generated insights
+4. Consult with a doctor through the platform
 
-- Profile Management: Update and manage user/admin profiles.
+## APIs Used
+- **Firebase realtime database** (For storing data)
 
-- Appointments: Schedule and renew appointments.
+## Technology Stack
+- **Frontend:** React, Tailwind CSS, Firebase
+- **Backend:** Express.js
+- **Other Libraries:** FetchAPI (for API calls)
 
-- How to Set Up
+---
+This **README** provides a comprehensive overview of the Health Tracker project. Make sure to update the placeholders and include relevant links, credentials, and API details before publishing it on GitHub.
 
-- Prerequisites
-
-- Install Node.js.
-
-- Steps to Run the Project
-
-- Download the project:
-
-- git clone <repository-url>
-    cd my-app
-
-- Install dependencies:
-
-- npm install
-
-- Start the app:
-
-- npm start
-
-- Open the app in your browser at http://localhost:5125.
-
-- Usage
-
-- Log in with the provided credentials.
-
-- Use the dashboard to view your tasks and reminders.
-
-- Interact with the chatbot for help.
-
-- Update your profile or manage appointments as needed.
-
-- Credentials
-
-- Admin: admin@example.com / admin123
-
-- User: user@example.com / user123
-
-- APIs Used
-
-- Appointment-card -https://health-tracker-4649d-default-rtdb.firebaseio.com/Appointment
-
-- MedicineCard-https://health-tracker-4649d-default-rtdb.firebaseio.com/MEDCARD
-
-- Renewal_page-https://health-tracker-4649d-default-rtdb.firebaseio.com/Renewal
-
-- Doctor-List-https://health-tracker-4649d-default-rtdb.firebaseio.com/Doctorlist
-
-- medication_page-https://health-tracker-4649d-default-rtdb.firebaseio.com/medications
-
-- OpenAI API: For chatbot responses.
-
-- Google Calendar API: For managing appointments.
-
-- Technology Used
-
-- Frontend: React.js, CSS.
-
-- Backend: (e.g., Node.js or Firebase if used).
-
-- Database: MongoDB or Firebase (if applicable).
